@@ -8,7 +8,10 @@ public class Week01_OddOr_Even {
     //       identify(5) --> "Odd"
     //       identify(6) --> "Even"
     public static void main(String[] args) {
-        System.out.println("hello world");
-    //i added
+       int num = 2;
+        if( num%2 == 0) {
+            System.out.println(num + " is even");
+        }else{
+            System.out.println(num + "is odd");}
     }
 }
