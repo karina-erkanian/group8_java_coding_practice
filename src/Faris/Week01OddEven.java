@@ -1,4 +1,5 @@
 package Faris;
+
 //Numbers -- odd & even
 //Write a method that can identify  a given number is even or odd.
 //
@@ -8,7 +9,15 @@ package Faris;
 public class Week01OddEven {
     public static void main(String[] args) {
 
+        oddEven(10);
 
-        System.out.println("Hello word");
+    }
+
+    public static void oddEven(int num) {
+        if (num % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
     }
 }
