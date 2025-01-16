@@ -9,4 +9,6 @@ public class Week01_OddOr_Even {
     //       identify(6) --> "Even"
 
     //sezen
+
+   //  task is done
 }
