@@ -13,6 +13,7 @@ public class Week01_OddOr_Even {
 
      oddAndEven(6);
      oddAndEven(7);
+     oddAndEven(121);
 
     }
 
