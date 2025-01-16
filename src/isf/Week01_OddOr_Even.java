@@ -11,7 +11,18 @@ public class Week01_OddOr_Even {
     public static void main(String[] args) {
         // my solution is here
 
-        System.out.println("Hello");
+     oddAndEven(6);
+     oddAndEven(7);
+     oddAndEven(121);
+     oddAndEven(51);
 
+    }
+
+    public static void oddAndEven(int num){
+        if (num % 2 == 0){
+            System.out.println("Even");
+        }else {
+            System.out.println("Odd");
+        }
     }
 }
