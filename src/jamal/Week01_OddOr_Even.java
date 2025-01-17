@@ -7,4 +7,6 @@ public class Week01_OddOr_Even {
     //EX:
     //       identify(5) --> "Odd"
     //       identify(6) --> "Even"
+
+    // This is just for practice.
 }
