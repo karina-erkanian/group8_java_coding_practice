@@ -1,5 +1,7 @@
 package moussa;
 
+import java.util.Scanner;
+
 import static java.lang.invoke.MethodHandles.identity;
 
 public class Week01_OddOr_Even {
@@ -11,8 +13,9 @@ public class Week01_OddOr_Even {
     //       identify(6) --> "Even"
 
     public static void main(String[] args) {
-        int number= 131;
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int number = sc.nextInt();
        identify(number);
     }
 
