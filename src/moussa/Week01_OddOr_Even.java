@@ -2,8 +2,6 @@ package moussa;
 
 import java.util.Scanner;
 
-import static java.lang.invoke.MethodHandles.identity;
-
 public class Week01_OddOr_Even {
     //Numbers -- odd & even
     //Write a method that can identify  a given number is even or odd.
