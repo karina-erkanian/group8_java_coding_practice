@@ -15,15 +15,15 @@ public class Finra {
         for (int i = 1; i < 31; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("FINRA");
+                System.out.print("FINRA"+" ");
             } else if (i % 3 == 0) {
-                System.out.println("FIN");
+                System.out.print("FIN"+" ");
 
             } else if (i % 5 == 0) {
-                System.out.println("RA");
+                System.out.print("RA"+" ");
 
             } else {
-                System.out.println(i);
+                System.out.print(i+" ");
             }
         }
     }
