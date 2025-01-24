@@ -12,6 +12,7 @@ public class FINRA {
                 System.out.print("RA ");
             }
             System.out.print(i + " ");
+            //karina
         }
     }
 }
