@@ -18,13 +18,15 @@ public class SwapNumbers {
 
         //We use arithmetic operators
 
-        a = a + b; //a holds the sum of a and b (50)
+       /* a = a + b; //a holds the sum of a and b (50)
         b = a - b; //b holds the original value of a (20)
         a = a - b; //a now holds the original value of b (30)
 
 
         System.out.println("After swap a = " + a + ", b = " + b);
-        //swap(a,b);
+
+        */
+        swap(a,b);
 
     }
 
@@ -37,6 +39,8 @@ public class SwapNumbers {
         b = temp;     //assigning the value of b to a --> b = 20
 
         System.out.println("After swap a = " + a +", b = "+ b);
+
+        //update
     }
 
     
