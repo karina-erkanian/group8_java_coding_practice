@@ -1,6 +1,6 @@
 package Rachid;
 
-public class Task1 {
+public class OddOrEven {
     public void java(){
 
 
