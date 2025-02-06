@@ -31,7 +31,7 @@ public class SwapNumbers {
         }
     }
 
-/*
-     Swap two integer variable values
-     (including both ways; with using a third variable and without it)
-     */
+
+
+    // Swap two integer variable values
+    // (including both ways; with using a third variable and without it.)
