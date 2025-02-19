@@ -5,7 +5,7 @@ public class FrequencyofCharacters {
     Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2*/
     public static void main(String[] args) {
         System.out.println(FrequencyOfChars("AABBCCC"));
-        //
+
 
     }
 
