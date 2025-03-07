@@ -6,6 +6,7 @@ public class FrequencyofCharacters {
     public static void main(String[] args) {
         System.out.println(FrequencyOfChars("AABBCCC"));
 
+
     }
 
     public static String FrequencyOfChars(String str) {
