@@ -7,9 +7,9 @@ returm method that find out the unique charachters  from string
 removeDup("AAABBBCCCDEF)---> DEF
  */
 
-        String str1= "AABFBEBHCCCDEFGHA";
+        String str1= "AAABBBCCCDEF";
 
-        System.out.println("remove duplicate characters from string :"+str1);
+        System.out.println("remove duplicate characters from string :" + str1);
         findTheUnique(str1);
         System.out.println("find the unique charachters  from string :"+findTheUnique(str1));
     }
