@@ -13,7 +13,7 @@ public class FindTheUnique {
 
     public static String findUnique(String str) {
 
-            if (str == null || str.isEmpty()) {
+            if (str == null || str.isEmpty()) {  //returns empty string if string is empty or null
                 return "";
             }
 
@@ -21,9 +21,9 @@ public class FindTheUnique {
             for (int i = 0; i < str.length(); i++) {
                 char currentChar = str.charAt(i);
                 boolean isUnique = true;
-                for (int j = 0; j < str.length(); j++) {
-                    if (i != j && currentChar == str.charAt(j)) {
-                        isUnique = false;
+                for (int j = 0; j < str.length(); j++) {       //his loop checks whether the character stored in currentChar
+                    if (i != j && currentChar == str.charAt(j)) {//appears anywhere else in the string at a different position.
+                        isUnique = false;                         //It compares the current character with all the other characters in the string.
                         break;
                     }
                 }
