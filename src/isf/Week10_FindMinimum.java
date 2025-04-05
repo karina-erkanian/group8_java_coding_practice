@@ -17,7 +17,7 @@ public class Week10_FindMinimum {
         System.out.println("minimum = " + minimum);
 
         int [] y = {5, 4, 6, 22, 4, 2, 13, 1};
-        //System.out.println("findMinimum(y) = " + findMinimum(y));
+        System.out.println("findMinimum(y) = " + findMinimum(y));
 
         int [] z = {};
        System.out.println("findMinimum(z) = " + findMinimum(z));
