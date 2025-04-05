@@ -33,7 +33,7 @@ public class FindMinimum {
     public static int findMin2(int[]arr){
 
         int min = arr[0];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if(arr[i]<min){ //comparing current number to the current minimum one
                 min=arr[i]; //assigning min to a new smaller number if one found
             }
